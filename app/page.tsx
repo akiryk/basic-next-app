@@ -5,27 +5,32 @@ export default async function Home() {
   const client = createApolloClient();
   const { data } = await client.query({
     query: gql`
-      query Books {
-        books {
-          author
-          title
+      query Students {
+        students {
+          firstName
+          lastName
+          id
         }
       }
     `,
   });
 
-  type Book = {
-    author: string;
-    title: string;
+  type Student = {
+    firstName: string;
+    lastName: string;
+    id: string;
   };
 
   return (
     <main>
-      <h2>Books</h2>
+      <h2>Students</h2>
       <ul>
-        {data.books.map((book: Book) => (
-          <li key={book.title}>
-            <strong>{book.title}</strong>, by <em>{book.author}</em>
+        {data.students.map((student: Student) => (
+          <li key={student.id}>
+            <span>
+              {`${student.firstName} ${student.lastName}:`}{" "}
+              <em>{student.id}</em>
+            </span>
           </li>
         ))}
       </ul>
