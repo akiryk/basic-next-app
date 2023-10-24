@@ -7,7 +7,7 @@ The Apollo Server repo is hosted on Heroku. [Dashboard is available behind a pas
 
 It gets deployed [here on Vercel](https://basic-next-pt986nrak-akiryk.vercel.app/).
 
-To deploy:
+To deploy
 
 - `git push`
 - visit [dashboard](https://vercel.com/akiryk/basic-next-app)
