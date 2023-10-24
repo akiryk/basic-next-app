@@ -18,3 +18,7 @@ To deploy:
 Use `@auth0/nextjs-auth0` for authentication. [See dashboard](https://manage.auth0.com/dashboard/us/dev-6yrl3be1h2xi7tlj/applications/JFa6Th02Y9QR064pUVOoYH5pwC66kJ7Y/settings).
 
 To create a secret, use `openssl rand -hex 32`` to generate a 32 bytes value.
+
+## Github
+
+Want to update your credentials? Create a [new token here](https://github.com/settings/tokens).
