@@ -15,17 +15,17 @@ export default async function Home() {
     `,
   });
 
-  type Student = {
-    firstName: string;
-    lastName: string;
-    id: string;
-  };
+  // type Student = {
+  //   firstName: string;
+  //   lastName: string;
+  //   id: string;
+  // };
 
   return (
     <main>
-      <h2>Students</h2>
+      <h2>Student:</h2>
       <ul>
-        {data.students.map((student: Student) => (
+        {data.students.map((student) => (
           <li key={student.id}>
             <span>
               {`${student.firstName} ${student.lastName}:`}{" "}

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { UserProvider } from "@auth0/nextjs-auth0/client";
+import Navigation from "../components/navigation";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -15,9 +16,7 @@ export default function RootLayout({
     <html lang="en">
       <UserProvider>
         <body>
-          <a href="/api/auth/signup">Signup</a>
-          <a href="/api/auth/login">Login</a>
-          <a href="/api/auth/logout">Logout</a>
+          <Navigation />
           {children}
         </body>
       </UserProvider>
