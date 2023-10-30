@@ -5,15 +5,14 @@ export default async function Navigation() {
 
   return session?.user ? (
     <div>
-      <a href="/">Home</a>
-      <a href="/api/auth/logout">Logout</a>
+      <a href="/">Home</a> | {` `}
+      <a href="/api/auth/logout">Logout</a> | {` `}
       <a href="/profile-server">Profile</a>
     </div>
   ) : (
     <div>
-      <a href="/">Home</a>
-      <a href="/api/auth/login">Login</a> | {` `}
-      <a href="/api/auth/logout">Logout</a>
+      <a href="/">Home</a> | {` `}
+      <a href="/api/auth/login">Login</a>
     </div>
   );
 }
