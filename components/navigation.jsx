@@ -12,7 +12,6 @@ export default async function Navigation() {
   ) : (
     <div>
       <a href="/">Home</a>
-      <a href="/api/auth/signup">Signup</a> | {` `}
       <a href="/api/auth/login">Login</a> | {` `}
       <a href="/api/auth/logout">Logout</a>
     </div>

@@ -13,6 +13,8 @@ To deploy
 - visit [dashboard](https://vercel.com/akiryk/basic-next-app)
 - visit [live app](https://basic-next-app-alpha.vercel.app/)
 
+You need to add secrets from your `.env` file to the settings in your Vercel app. Do that at `settings/environment-variables`
+
 ## Auth
 
 Use `@auth0/nextjs-auth0` for authentication. [See dashboard](https://manage.auth0.com/dashboard/us/dev-6yrl3be1h2xi7tlj/applications/JFa6Th02Y9QR064pUVOoYH5pwC66kJ7Y/settings).
