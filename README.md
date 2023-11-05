@@ -12,6 +12,7 @@ This is a nextjs app build with the new app directory and the following technolo
 The next app is hosted on Vercel. It's called `Basic Next App`.
 
 > See the [Basic Next App Deployment](https://basic-next-app-alpha.vercel.app/)
+
 > See the [Basic Next App project on Vercel](https://vercel.com/akiryk/basic-next-app)
 
 The MondoDB data is stored in a the Atlas Readylab group in a project called `Graphql Apollo Mongodb Nextjs`.
@@ -21,7 +22,9 @@ The MondoDB data is stored in a the Atlas Readylab group in a project called `Gr
 The Apollo Server is hosted on Heroku in a project called `varioso`.
 
 > See the [Server repo on github](https://github.com/akiryk/graphql-server-example)
+
 > See the [Varioso Heroku Project](https://dashboard.heroku.com/apps/varioso)
+
 > See the [Apollo Server Sandbox on Heroku](https://varioso-668b109fd65d.herokuapp.com/)
 
 Use `@auth0/nextjs-auth0` for authentication.
