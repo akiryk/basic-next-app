@@ -15,12 +15,6 @@ export default async function Home() {
     `,
   });
 
-  // type Student = {
-  //   firstName: string;
-  //   lastName: string;
-  //   id: string;
-  // };
-
   return (
     <main>
       <h2>Student:</h2>

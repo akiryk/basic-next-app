@@ -1,4 +1,5 @@
 This is a next app.
+It goes with the Apollo Server app in the graphql-server-example repo.
 
 It uses Apollo Client to query a Heroku Graphql server:
 https://varioso-668b109fd65d.herokuapp.com/
@@ -23,6 +24,11 @@ For the AUTH BASE URL:
 
 - prod: `https://basic-next-app-alpha.vercel.app/`
 - dev: `http://localhost:3000/`
+
+For [the auto0 settings page](https://manage.auth0.com/dashboard), you need to set the "Allowed Callback URLs". This will be localhost and your Vercel domain, e.g.
+
+- `http://localhost:3000/api/auth/callback`
+- `https://basic-next-app-alpha.vercel.app/api/auth/callback`
 
 To create a secret, use `openssl rand -hex 32`` to generate a 32 bytes value.
 
