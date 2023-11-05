@@ -1,6 +1,8 @@
 import { gql } from "@apollo/client";
 import createApolloClient from "../apollo-client";
 
+export const revalidate = 0;
+
 export default async function Home() {
   const client = createApolloClient();
   const { data } = await client.query({
