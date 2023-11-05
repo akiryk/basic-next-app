@@ -6,7 +6,7 @@ https://varioso-668b109fd65d.herokuapp.com/
 
 The Apollo Server repo is hosted on Heroku. [Dashboard is available behind a password](https://dashboard.heroku.com/apps/varioso).
 
-It gets deployed [here on Vercel](https://basic-next-pt986nrak-akiryk.vercel.app/).
+It gets deployed [here on Vercel](https://basic-next-app-alpha.vercel.app/).
 
 To deploy
 
